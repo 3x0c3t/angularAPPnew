@@ -1,0 +1,22 @@
+/* /var/www/html/angularApp/src/app/footer/footer.component.css */
+
+.custom-footer {
+    background-color: #1e1e1e; /* Dark background */
+    color: #00cc00; /* Green text */
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-text {
+    font-size: 1em;
+  }
+  

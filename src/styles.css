@@ -1,1 +1,35 @@
-/* You can add global styles to this file, and also import other style files */
+/* /var/www/html/angularApp/src/styles.css */
+
+/* Body */
+body {
+  background-color: #333; /* Couleur de fond sombre */
+  color: #fff; /* Couleur de texte blanc */
+  font-family: Arial, sans-serif; /* Police de caractères */
+  margin: 0; /* Enlever les marges par défaut */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Conteneur principal */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  flex: 1; /* Faire en sorte que le conteneur principal prenne l'espace disponible */
+}
+
+/* Titre */
+h1 {
+  color: #00cc00; /* Couleur verte */
+}
+
+/* Paragraphe */
+p {
+  font-size: 1.2em;
+}
+
+/* Ajustement du positionnement du contenu principal */
+router-outlet + app-footer {
+  margin-top: auto; /* Pousser le footer vers le bas */
+}

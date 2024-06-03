@@ -1,0 +1,20 @@
+/* /var/www/html/angularApp/src/app/nav-menu/nav-menu.component.css */
+
+.nav-menu {
+    background-color: #1e1e1e; /* Dark background */
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .nav-menu a {
+    color: #00cc00; /* Green text */
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+  }
+  
+  .nav-menu a.active-link {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  

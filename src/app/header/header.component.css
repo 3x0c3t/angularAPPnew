@@ -1,0 +1,28 @@
+/* /var/www/html/angularApp/src/app/header/header.component.css */
+
+.custom-header {
+    background-color: #1e1e1e; /* Dark background */
+    color: #00cc00; /* Green text */
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-text, .header-title {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .header-text {
+    margin-right: 10px;
+  }
+  
+  .header-title {
+    color: #ffffff; /* White text for the title */
+  }
+  
